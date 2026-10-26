@@ -113,4 +113,4 @@ what to add to the data file next.
 - Replace keyword matching with sentence embeddings (e.g. multilingual MiniLM)
 - Student-specific answers (timetable, results) via a college database / login
 
- chennai-college-enquiry.streamlit.app
+ [chennai-college-enquiry.streamlit.app](https://chennai-college-enquiry.streamlit.app/)
