@@ -77,6 +77,7 @@ lacks the requested fact rather than returning sample figures.
 3. In the app's **Settings → Secrets**, set `ADMIN_PASSWORD` to a private password
     before sharing the app. The default local password is `admin`.
 4. Deploy. Streamlit Cloud installs dependencies from `requirements.txt`.
+    If no `ADMIN_PASSWORD` secret is configured, analytics stay disabled (safe default).
 
 The app needs outbound internet for live search and optional translation. Its
 CSV chat log is ephemeral on hosted instances, so do not use it for durable
@@ -102,8 +103,8 @@ Placeholders such as `{phone}` and `{tuition_fee}` are filled automatically.
 
 ## Admin analytics
 Every question is logged to `logs/chat_log.csv`. In the app sidebar, open
-**Admin analytics** (default password `admin`; set your own with the
-`ADMIN_PASSWORD` environment variable). The "Unanswered questions" list shows
+**Admin analytics** (configure `ADMIN_PASSWORD` using Streamlit secrets or an
+environment variable to enable). The "Unanswered questions" list shows
 what to add to the data file next.
 
 ## Possible extensions

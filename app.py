@@ -23,7 +23,7 @@ def configured_admin_password() -> str:
         secret = st.secrets.get("ADMIN_PASSWORD")
     except (FileNotFoundError, AttributeError):
         secret = None
-    return str(secret or os.environ.get("ADMIN_PASSWORD", "admin"))
+    return str(secret or os.environ.get("ADMIN_PASSWORD", ""))
 
 
 ADMIN_PASSWORD = configured_admin_password()
@@ -123,8 +123,12 @@ with st.sidebar:
     st.caption(bot.ui("footer", ui_lang))
 
     with st.expander("🔒 Admin analytics"):
-        pwd = st.text_input("Password", type="password", key="admin_pwd")
-        if pwd and pwd == ADMIN_PASSWORD:
+        if not ADMIN_PASSWORD:
+            st.info("Analytics are disabled. Set ADMIN_PASSWORD in Streamlit secrets to enable them.")
+            pwd = ""
+        else:
+            pwd = st.text_input("Password", type="password", key="admin_pwd")
+        if ADMIN_PASSWORD and pwd and pwd == ADMIN_PASSWORD:
             rows = []
             if LOG_PATH.exists():
                 with open(LOG_PATH, newline="", encoding="utf-8") as fh:
@@ -142,7 +146,7 @@ with st.sidebar:
                 missed = [r["question"] for r in rows if r["intent"] == "fallback"]
                 st.caption(f"Unanswered questions ({len(missed)}) - add these to the data file")
                 st.write(missed[-20:])
-        elif pwd:
+        elif ADMIN_PASSWORD and pwd:
             st.error("Wrong password")
 
 # ----------------------------------------------------------------- chat
