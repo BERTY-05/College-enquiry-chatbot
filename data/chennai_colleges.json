@@ -1,0 +1,98 @@
+{
+  "title": "Chennai Colleges Directory",
+  "description": "A starter directory of selected universities and colleges in Chennai and nearby Chennai metropolitan areas. It is not exhaustive. Use each institution's official website to confirm current courses, admissions, fees, and campus details.",
+  "colleges": [
+    {
+      "name": "Indian Institute of Technology Madras (IIT Madras)",
+      "aliases": ["IIT Madras", "IITM"],
+      "official_domains": ["fees.iitm.ac.in", "www.iitm.ac.in"],
+      "category": "University / Engineering",
+      "area": "Adyar",
+      "website": "https://www.iitm.ac.in/"
+    },
+    {
+      "name": "Anna University",
+      "aliases": ["Anna University Chennai"],
+      "category": "University / Engineering",
+      "area": "Guindy",
+      "website": "https://www.annauniv.edu/"
+    },
+    {
+      "name": "University of Madras",
+      "aliases": ["Madras University"],
+      "category": "University",
+      "area": "Chepauk",
+      "website": "https://www.unom.ac.in/"
+    },
+    {
+      "name": "Madras Medical College",
+      "aliases": ["MMC"],
+      "category": "Medical",
+      "area": "Park Town",
+      "website": "https://www.mmc.tn.gov.in/"
+    },
+    {
+      "name": "Loyola College",
+      "category": "Arts & Science",
+      "area": "Nungambakkam",
+      "website": "https://www.loyolacollege.edu/"
+    },
+    {
+      "name": "Madras Christian College",
+      "aliases": ["MCC"],
+      "category": "Arts & Science",
+      "area": "Tambaram",
+      "website": "https://mcc.edu.in/"
+    },
+    {
+      "name": "Stella Maris College",
+      "category": "Arts & Science",
+      "area": "Chennai",
+      "website": "https://stellamariscollege.edu.in/"
+    },
+    {
+      "name": "Presidency College",
+      "category": "Arts & Science",
+      "area": "Chepauk",
+      "website": "https://presidencycollegechennai.ac.in/"
+    },
+    {
+      "name": "SRM Institute of Science and Technology",
+      "aliases": ["SRM", "SRMIST"],
+      "category": "University / Engineering / Medical",
+      "area": "Kattankulathur (Chennai region)",
+      "website": "https://www.srmist.edu.in/"
+    },
+    {
+      "name": "Vellore Institute of Technology (VIT Chennai)",
+      "aliases": ["VIT Chennai", "VIT"],
+      "category": "Engineering",
+      "area": "Kelambakkam–Vandalur Road",
+      "website": "https://chennai.vit.ac.in/"
+    },
+    {
+      "name": "Sathyabama Institute of Science and Technology",
+      "category": "University / Engineering",
+      "area": "Jeppiaar Nagar, Old Mahabalipuram Road",
+      "website": "https://www.sathyabama.ac.in/"
+    },
+    {
+      "name": "Saveetha Institute of Medical and Technical Sciences",
+      "category": "University / Medical / Engineering",
+      "area": "Thandalam",
+      "website": "https://www.saveetha.com/"
+    },
+    {
+      "name": "Hindustan Institute of Technology and Science",
+      "category": "University / Engineering",
+      "area": "Padur, Old Mahabalipuram Road",
+      "website": "https://hindustanuniv.ac.in/"
+    },
+    {
+      "name": "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology",
+      "category": "University / Engineering",
+      "area": "Avadi",
+      "website": "https://www.veltech.edu.in/"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# Python environment and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local secrets
+.streamlit/secrets.toml
+.env
+
+# Runtime logs and local app state
+logs/*.csv
+.DS_Store

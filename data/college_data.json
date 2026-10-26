@@ -1,0 +1,429 @@
+{
+  "_readme": "EDIT THIS FILE to customise the assistant for your college. All values below are SAMPLE data - replace them with your college's real details before the demo.",
+
+  "college": {
+    "phone": "+91 00000 00000",
+    "admission_phone": "+91 00000 11111",
+    "email": "info@yourcollege.edu.in",
+    "website": "www.yourcollege.edu.in",
+    "established": "2005",
+    "name": {
+      "en": "ABC Engineering College",
+      "ta": "ஏபிசி பொறியியல் கல்லூரி",
+      "hi": "एबीसी इंजीनियरिंग कॉलेज"
+    },
+    "address": {
+      "en": "123, College Road, Your City - 600 000, Tamil Nadu",
+      "ta": "123, கல்லூரி சாலை, உங்கள் நகரம் - 600 000, தமிழ்நாடு",
+      "hi": "123, कॉलेज रोड, आपका शहर - 600 000, तमिलनाडु"
+    },
+    "office_hours": {
+      "en": "9:00 AM to 4:30 PM",
+      "ta": "காலை 9:00 முதல் மாலை 4:30 வரை",
+      "hi": "सुबह 9:00 से शाम 4:30 बजे तक"
+    },
+    "application_deadline": {
+      "en": "30 June",
+      "ta": "ஜூன் 30",
+      "hi": "30 जून"
+    },
+    "accreditation": {
+      "en": "approved by AICTE, affiliated to the state university and NAAC accredited",
+      "ta": "AICTE அங்கீகாரம் பெற்ற, மாநிலப் பல்கலைக்கழகத்துடன் இணைக்கப்பட்ட, NAAC அங்கீகாரம் பெற்ற",
+      "hi": "AICTE से मान्यता प्राप्त, राज्य विश्वविद्यालय से संबद्ध और NAAC मान्यता प्राप्त"
+    }
+  },
+
+  "facts": {
+    "tuition_fee": "₹ 85,000",
+    "hostel_fee": "₹ 70,000",
+    "bus_fee": "₹ 25,000",
+    "placement_percent": "85%",
+    "highest_package": "₹ 12 LPA",
+    "avg_package": "₹ 4.5 LPA",
+    "recruiters": "TCS, Infosys, Wipro, Zoho, Cognizant"
+  },
+
+  "ui": {
+    "title": {"en": "College Information Assistant", "ta": "கல்லூரி தகவல் உதவியாளர்", "hi": "कॉलेज सूचना सहायक"},
+    "placeholder": {"en": "Type your question...", "ta": "உங்கள் கேள்வியை எழுதுங்கள்...", "hi": "अपना प्रश्न लिखें..."},
+    "language": {"en": "Language", "ta": "மொழி", "hi": "भाषा"},
+    "auto": {"en": "Auto-detect", "ta": "தானாகக் கண்டறி", "hi": "स्वतः पहचानें"},
+    "clear": {"en": "Clear chat", "ta": "உரையாடலை அழி", "hi": "चैट साफ़ करें"},
+    "quick": {"en": "Quick questions", "ta": "விரைவு கேள்விகள்", "hi": "त्वरित प्रश्न"},
+    "footer": {
+      "en": "Answers are for general guidance. Please confirm important details with the college office.",
+      "ta": "இந்தப் பதில்கள் பொது வழிகாட்டலுக்கு மட்டுமே. முக்கிய விவரங்களை கல்லூரி அலுவலகத்தில் உறுதி செய்யவும்.",
+      "hi": "उत्तर केवल सामान्य जानकारी के लिए हैं। महत्वपूर्ण विवरण कॉलेज कार्यालय से अवश्य पुष्टि करें।"
+    }
+  },
+
+  "suggestions": {
+    "en": ["Admission process", "Courses offered", "Fee structure", "Hostel and mess", "Placements", "Contact details"],
+    "ta": ["சேர்க்கை முறை", "படிப்புகள்", "கட்டண விவரம்", "விடுதி விவரங்கள்", "வேலைவாய்ப்பு", "தொடர்பு விவரங்கள்"],
+    "hi": ["प्रवेश प्रक्रिया", "उपलब्ध पाठ्यक्रम", "शुल्क विवरण", "हॉस्टल की जानकारी", "प्लेसमेंट", "संपर्क विवरण"]
+  },
+
+  "romanized_hints": {
+    "ta": ["evlo", "evvalavu", "eppadi", "enna", "irukku", "irukka", "venum", "sollunga", "enga", "epo", "eppo", "unga", "illa"],
+    "hi": ["kya", "kaise", "kitna", "kitni", "kitne", "hai", "hain", "mujhe", "batao", "bataiye", "kahan", "chahiye", "mera", "aap", "kab"]
+  },
+
+  "fallback": {
+    "en": "Sorry, I couldn't find an answer for that. 🙏 You can ask me about admissions, courses, fees, scholarships, hostel, transport, library, placements, exams, facilities or contact details. Or reach our office at {phone} / {email}.",
+    "ta": "மன்னிக்கவும், இதற்கான பதில் என்னிடம் இல்லை. 🙏 சேர்க்கை, படிப்புகள், கட்டணம், உதவித்தொகை, விடுதி, போக்குவரத்து, நூலகம், வேலைவாய்ப்பு, தேர்வுகள், வசதிகள் அல்லது தொடர்பு விவரங்கள் பற்றி கேளுங்கள். அல்லது எங்கள் அலுவலகத்தை {phone} / {email} மூலம் தொடர்பு கொள்ளுங்கள்.",
+    "hi": "क्षमा करें, मुझे इसका उत्तर नहीं मिला। 🙏 आप प्रवेश, पाठ्यक्रम, शुल्क, छात्रवृत्ति, हॉस्टल, परिवहन, पुस्तकालय, प्लेसमेंट, परीक्षा, सुविधाओं या संपर्क विवरण के बारे में पूछ सकते हैं। या हमारे कार्यालय से {phone} / {email} पर संपर्क करें।"
+  },
+
+  "department_template": {
+    "en": "**{dept}**\n- Degree: B.E./B.Tech. (4 years)\n- Intake: {intake} seats\n- Focus areas: {focus}\n\nFor syllabus, labs and faculty details, write to {email}.",
+    "ta": "**{dept}**\n- பட்டம்: பி.இ./பி.டெக். (4 ஆண்டுகள்)\n- இடங்கள்: {intake}\n- முக்கியப் பாடப் பகுதிகள்: {focus}\n\nபாடத்திட்டம், ஆய்வகங்கள், பேராசிரியர்கள் குறித்த விவரங்களுக்கு {email} என்ற மின்னஞ்சலுக்கு எழுதவும்.",
+    "hi": "**{dept}**\n- डिग्री: बी.ई./बी.टेक. (4 वर्ष)\n- सीटें: {intake}\n- मुख्य विषय क्षेत्र: {focus}\n\nसिलेबस, प्रयोगशालाओं और फैकल्टी की जानकारी के लिए {email} पर लिखें।"
+  },
+
+  "departments": [
+    {
+      "id": "cse", "intake": 120,
+      "aliases": ["cse", "computer science", "கணினி அறிவியல்", "कंप्यूटर साइंस", "कंप्यूटर विज्ञान"],
+      "name": {"en": "Computer Science and Engineering", "ta": "கணினி அறிவியல் மற்றும் பொறியியல்", "hi": "कंप्यूटर साइंस एवं इंजीनियरिंग"},
+      "focus": {
+        "en": "programming, data structures, AI/ML, cloud computing and cyber security",
+        "ta": "நிரலாக்கம், தரவு கட்டமைப்புகள், AI/ML, கிளவுட் கம்ப்யூட்டிங், சைபர் பாதுகாப்பு",
+        "hi": "प्रोग्रामिंग, डेटा स्ट्रक्चर, AI/ML, क्लाउड कंप्यूटिंग और साइबर सुरक्षा"
+      }
+    },
+    {
+      "id": "it", "intake": 60,
+      "aliases": ["information technology", "it department", "it dept", "it branch", "தகவல் தொழில்நுட்பம்", "सूचना प्रौद्योगिकी"],
+      "name": {"en": "Information Technology", "ta": "தகவல் தொழில்நுட்பம்", "hi": "सूचना प्रौद्योगिकी"},
+      "focus": {
+        "en": "web and mobile development, networking, databases, IoT and information security",
+        "ta": "இணைய மற்றும் மொபைல் மேம்பாடு, நெட்வொர்க்கிங், தரவுத்தளங்கள், IoT, தகவல் பாதுகாப்பு",
+        "hi": "वेब और मोबाइल डेवलपमेंट, नेटवर्किंग, डेटाबेस, IoT और सूचना सुरक्षा"
+      }
+    },
+    {
+      "id": "aids", "intake": 60,
+      "aliases": ["ai ds", "ai and ds", "artificial intelligence", "data science", "செயற்கை நுண்ணறிவு", "आर्टिफिशियल इंटेलिजेंस", "डेटा साइंस"],
+      "name": {"en": "Artificial Intelligence and Data Science", "ta": "செயற்கை நுண்ணறிவு மற்றும் தரவு அறிவியல்", "hi": "आर्टिफिशियल इंटेलिजेंस एवं डेटा साइंस"},
+      "focus": {
+        "en": "machine learning, deep learning, big data analytics and data visualisation",
+        "ta": "இயந்திரக் கற்றல், ஆழ்ந்த கற்றல், பெருந்தரவு பகுப்பாய்வு, தரவுக் காட்சிப்படுத்தல்",
+        "hi": "मशीन लर्निंग, डीप लर्निंग, बिग डेटा एनालिटिक्स और डेटा विज़ुअलाइज़ेशन"
+      }
+    },
+    {
+      "id": "ece", "intake": 120,
+      "aliases": ["ece", "electronics and communication", "electronics communication", "தகவல் தொடர்பு பொறியியல்", "इलेक्ट्रॉनिक्स एवं संचार", "इलेक्ट्रॉनिक्स"],
+      "name": {"en": "Electronics and Communication Engineering", "ta": "மின்னணு மற்றும் தகவல் தொடர்பு பொறியியல்", "hi": "इलेक्ट्रॉनिक्स एवं संचार इंजीनियरिंग"},
+      "focus": {
+        "en": "analog and digital electronics, VLSI, embedded systems, communication and signal processing",
+        "ta": "அனலாக் மற்றும் டிஜிட்டல் மின்னணுவியல், VLSI, உட்பொதிந்த அமைப்புகள், தகவல் தொடர்பு, சமிக்ஞை செயலாக்கம்",
+        "hi": "एनालॉग और डिजिटल इलेक्ट्रॉनिक्स, VLSI, एम्बेडेड सिस्टम, संचार और सिग्नल प्रोसेसिंग"
+      }
+    },
+    {
+      "id": "eee", "intake": 60,
+      "aliases": ["eee", "electrical", "மின் மற்றும் மின்னணுவியல்", "மின்னியல்", "इलेक्ट्रिकल"],
+      "name": {"en": "Electrical and Electronics Engineering", "ta": "மின் மற்றும் மின்னணுவியல் பொறியியல்", "hi": "इलेक्ट्रिकल एवं इलेक्ट्रॉनिक्स इंजीनियरिंग"},
+      "focus": {
+        "en": "power systems, electrical machines, control systems and renewable energy",
+        "ta": "மின்சக்தி அமைப்புகள், மின் இயந்திரங்கள், கட்டுப்பாட்டு அமைப்புகள், புதுப்பிக்கத்தக்க ஆற்றல்",
+        "hi": "पावर सिस्टम, विद्युत मशीनें, कंट्रोल सिस्टम और नवीकरणीय ऊर्जा"
+      }
+    },
+    {
+      "id": "mech", "intake": 60,
+      "aliases": ["mech", "mechanical", "இயந்திரவியல்", "मैकेनिकल", "यांत्रिक"],
+      "name": {"en": "Mechanical Engineering", "ta": "இயந்திரவியல் பொறியியல்", "hi": "मैकेनिकल इंजीनियरिंग"},
+      "focus": {
+        "en": "design, manufacturing, thermal engineering, robotics and automobile engineering",
+        "ta": "வடிவமைப்பு, உற்பத்தி, வெப்ப பொறியியல், ரோபாட்டிக்ஸ், வாகனப் பொறியியல்",
+        "hi": "डिज़ाइन, मैन्युफैक्चरिंग, थर्मल इंजीनियरिंग, रोबोटिक्स और ऑटोमोबाइल इंजीनियरिंग"
+      }
+    },
+    {
+      "id": "civil", "intake": 60,
+      "aliases": ["civil", "சிவில்", "सिविल"],
+      "name": {"en": "Civil Engineering", "ta": "சிவில் பொறியியல்", "hi": "सिविल इंजीनियरिंग"},
+      "focus": {
+        "en": "structural engineering, construction management, surveying and environmental engineering",
+        "ta": "கட்டமைப்புப் பொறியியல், கட்டுமான மேலாண்மை, நில அளவை, சுற்றுச்சூழல் பொறியியல்",
+        "hi": "स्ट्रक्चरल इंजीनियरिंग, निर्माण प्रबंधन, सर्वेक्षण और पर्यावरण इंजीनियरिंग"
+      }
+    }
+  ],
+
+  "intents": [
+    {
+      "id": "greeting", "label": "Greeting",
+      "keywords": {
+        "en": ["hi", "hello", "hey", "hii", "greetings", "good morning", "good afternoon", "good evening"],
+        "ta": ["வணக்கம்", "ஹலோ", "ஹாய்"],
+        "hi": ["नमस्ते", "नमस्कार", "हैलो", "हेलो", "हाय"],
+        "ta_rom": ["vanakkam"],
+        "hi_rom": ["namaste", "namaskar"]
+      },
+      "answers": {
+        "en": "Hello! 👋 Welcome to the virtual assistant of {name}. I can help you with admissions, courses, fees, hostel, transport, placements and more. What would you like to know?",
+        "ta": "வணக்கம்! 👋 {name} மெய்நிகர் உதவியாளருக்கு வரவேற்கிறோம். சேர்க்கை, படிப்புகள், கட்டணம், விடுதி, போக்குவரத்து, வேலைவாய்ப்பு போன்றவற்றில் நான் உதவ முடியும். நீங்கள் என்ன தெரிந்து கொள்ள விரும்புகிறீர்கள்?",
+        "hi": "नमस्ते! 👋 {name} के वर्चुअल असिस्टेंट में आपका स्वागत है। मैं प्रवेश, पाठ्यक्रम, शुल्क, हॉस्टल, परिवहन, प्लेसमेंट आदि में आपकी मदद कर सकता हूँ। आप क्या जानना चाहेंगे?"
+      }
+    },
+    {
+      "id": "thanks", "label": "Thanks",
+      "keywords": {
+        "en": ["thank", "thanks", "thank you", "thx", "appreciate"],
+        "ta": ["நன்றி"],
+        "hi": ["धन्यवाद", "शुक्रिया", "थैंक्स", "आभार"],
+        "ta_rom": ["nandri", "nanri"],
+        "hi_rom": ["dhanyavad", "shukriya"]
+      },
+      "answers": {
+        "en": "You're welcome! 😊 Let me know if you need anything else.",
+        "ta": "மகிழ்ச்சி! 😊 வேறு ஏதேனும் தகவல் தேவைப்பட்டால் கேளுங்கள்.",
+        "hi": "आपका स्वागत है! 😊 कोई और जानकारी चाहिए तो बताइए।"
+      }
+    },
+    {
+      "id": "bye", "label": "Goodbye",
+      "keywords": {
+        "en": ["bye", "goodbye", "good bye", "see you", "take care"],
+        "ta": ["போய் வருகிறேன்", "பிறகு சந்திப்போம்", "டாட்டா"],
+        "hi": ["अलविदा", "फिर मिलेंगे", "टाटा", "बाय"],
+        "ta_rom": ["poitu varen", "poittu varen"],
+        "hi_rom": ["alvida"]
+      },
+      "answers": {
+        "en": "Goodbye! Best wishes for your future. 🎓",
+        "ta": "நன்றி, வணக்கம்! உங்கள் எதிர்காலத்திற்கு வாழ்த்துகள். 🎓",
+        "hi": "अलविदा! आपके उज्ज्वल भविष्य के लिए शुभकामनाएँ। 🎓"
+      }
+    },
+    {
+      "id": "admission", "label": "Admission",
+      "keywords": {
+        "en": ["admission", "apply", "applying", "application", "eligibility", "eligible", "how to join", "counselling", "counseling", "cutoff", "cut off", "documents required"],
+        "ta": ["சேர்க்கை", "விண்ணப்ப", "தகுதி", "கலந்தாய்வு"],
+        "hi": ["प्रवेश", "एडमिशन", "आवेदन", "पात्रता", "काउंसलिंग"],
+        "ta_rom": ["serkkai", "vinnappam"],
+        "hi_rom": ["pravesh", "aavedan", "avedan"]
+      },
+      "answers": {
+        "en": "**Admission process at {name}**\n1. Check eligibility: pass 10+2 with Physics, Chemistry and Mathematics (for B.E./B.Tech.).\n2. Apply online at {website} or visit the admission office.\n3. Submit documents: mark sheets, transfer certificate, community certificate, ID proof and photographs.\n4. Attend counselling / the admission interview.\n5. Pay the fees to confirm your seat.\n\nLast date to apply: {application_deadline}. Admission helpline: {admission_phone}.",
+        "ta": "**{name} சேர்க்கை நடைமுறை**\n1. தகுதி: இயற்பியல், வேதியியல், கணிதத்துடன் 12ஆம் வகுப்பு தேர்ச்சி (பி.இ./பி.டெக். படிப்புகளுக்கு).\n2. {website} இணையதளத்தில் ஆன்லைனில் விண்ணப்பிக்கவும் அல்லது சேர்க்கை அலுவலகத்தை அணுகவும்.\n3. ஆவணங்கள்: மதிப்பெண் சான்றிதழ், மாற்றுச் சான்றிதழ், சாதிச் சான்றிதழ், அடையாளச் சான்று, புகைப்படங்கள்.\n4. கலந்தாய்வு / நேர்காணலில் கலந்து கொள்ளவும்.\n5. கட்டணம் செலுத்தி இடத்தை உறுதி செய்யவும்.\n\nவிண்ணப்பிக்க கடைசி தேதி: {application_deadline}. சேர்க்கை உதவி எண்: {admission_phone}.",
+        "hi": "**{name} में प्रवेश प्रक्रिया**\n1. पात्रता: भौतिकी, रसायन और गणित के साथ 12वीं उत्तीर्ण (बी.ई./बी.टेक. के लिए)।\n2. {website} पर ऑनलाइन आवेदन करें या प्रवेश कार्यालय में संपर्क करें।\n3. दस्तावेज़: अंकपत्र, स्थानांतरण प्रमाणपत्र, जाति प्रमाणपत्र, पहचान पत्र और फोटो।\n4. काउंसलिंग / साक्षात्कार में शामिल हों।\n5. शुल्क जमा कर सीट पक्की करें।\n\nआवेदन की अंतिम तिथि: {application_deadline}। प्रवेश हेल्पलाइन: {admission_phone}।"
+      }
+    },
+    {
+      "id": "courses", "label": "Courses",
+      "keywords": {
+        "en": ["course", "program", "programme", "department", "branch", "degree", "stream", "b tech", "btech", "mba", "mca", "syllabus", "offered"],
+        "ta": ["படிப்பு", "துறை", "பாடப்பிரிவு", "பாடத்திட்டம்"],
+        "hi": ["पाठ्यक्रम", "कोर्स", "विभाग", "शाखा", "सिलेबस"],
+        "ta_rom": ["padippu", "thurai"],
+        "hi_rom": ["pathyakram", "vibhag"]
+      },
+      "answers": {
+        "en": "**Programmes offered at {name}**\n- B.E./B.Tech.: Computer Science and Engineering, Information Technology, Artificial Intelligence and Data Science, Electronics and Communication, Electrical and Electronics, Mechanical, Civil\n- Postgraduate: M.E., MBA, MCA\n\nAsk me about any department for more details (for example, 'Tell me about CSE').",
+        "ta": "**{name} வழங்கும் படிப்புகள்**\n- பி.இ./பி.டெக்.: கணினி அறிவியல் மற்றும் பொறியியல், தகவல் தொழில்நுட்பம், செயற்கை நுண்ணறிவு மற்றும் தரவு அறிவியல், மின்னணு மற்றும் தகவல் தொடர்பு, மின் மற்றும் மின்னணுவியல், இயந்திரவியல், சிவில்\n- முதுநிலை: எம்.இ., எம்.பி.ஏ., எம்.சி.ஏ.\n\nஏதேனும் ஒரு துறை பற்றி விரிவாக அறிய கேளுங்கள் (எ.கா: 'CSE பற்றி சொல்லுங்கள்').",
+        "hi": "**{name} में उपलब्ध पाठ्यक्रम**\n- बी.ई./बी.टेक.: कंप्यूटर साइंस एवं इंजीनियरिंग, सूचना प्रौद्योगिकी, आर्टिफिशियल इंटेलिजेंस एवं डेटा साइंस, इलेक्ट्रॉनिक्स एवं संचार, इलेक्ट्रिकल एवं इलेक्ट्रॉनिक्स, मैकेनिकल, सिविल\n- स्नातकोत्तर: एम.ई., एमबीए, एमसीए\n\nकिसी भी विभाग के बारे में विस्तार से जानने के लिए पूछें (जैसे 'CSE के बारे में बताइए')।"
+      }
+    },
+    {
+      "id": "fees", "label": "Fees",
+      "keywords": {
+        "en": ["fee", "tuition", "cost", "payment", "how much", "charges", "price", "pay"],
+        "ta": ["கட்டண", "பீஸ்", "செலவு", "எவ்வளவு"],
+        "hi": ["शुल्क", "फीस", "खर्च", "कितना", "कितनी", "कितने", "भुगतान"],
+        "ta_rom": ["evlo", "evvalavu", "kattanam"],
+        "hi_rom": ["shulk", "kitna", "kitni", "kharcha"]
+      },
+      "answers": {
+        "en": "**Fee structure (per year)**\n- Tuition fee: {tuition_fee}\n- Hostel fee (including mess): {hostel_fee}\n- College bus: {bus_fee}\n\nFees may vary by course and admission quota. For exact details contact the accounts office: {phone}.",
+        "ta": "**கட்டண விவரம் (ஆண்டுக்கு)**\n- கல்விக் கட்டணம்: {tuition_fee}\n- விடுதிக் கட்டணம் (உணவு உட்பட): {hostel_fee}\n- கல்லூரிப் பேருந்து: {bus_fee}\n\nபடிப்பு மற்றும் சேர்க்கை ஒதுக்கீட்டைப் பொறுத்து கட்டணம் மாறுபடலாம். சரியான விவரங்களுக்கு கணக்கு அலுவலகத்தை {phone} என்ற எண்ணில் தொடர்பு கொள்ளவும்.",
+        "hi": "**शुल्क विवरण (प्रति वर्ष)**\n- ट्यूशन शुल्क: {tuition_fee}\n- हॉस्टल शुल्क (मेस सहित): {hostel_fee}\n- कॉलेज बस: {bus_fee}\n\nशुल्क कोर्स और प्रवेश कोटे के अनुसार बदल सकता है। सही जानकारी के लिए अकाउंट्स ऑफिस से {phone} पर संपर्क करें।"
+      }
+    },
+    {
+      "id": "scholarship", "label": "Scholarship",
+      "keywords": {
+        "en": ["scholarship", "financial aid", "concession", "fee waiver", "first graduate", "bursary", "stipend", "education loan"],
+        "ta": ["உதவித்தொகை", "உதவித் தொகை", "சலுகை", "முதல் தலைமுறை", "கல்விக் கடன்"],
+        "hi": ["छात्रवृत्ति", "स्कॉलरशिप", "रियायत", "वित्तीय सहायता", "शिक्षा ऋण"],
+        "ta_rom": ["uthavithogai", "uthavi thogai"],
+        "hi_rom": ["chhatravritti", "chatravritti"]
+      },
+      "answers": {
+        "en": "**Scholarships and financial aid**\n- Government scholarships (SC/ST/BC/MBC, minority and central schemes)\n- First-graduate concession\n- Merit scholarship for top scorers in entrance / semester exams\n- Sports quota concession\n\nContact the scholarship cell at {email} for eligibility and documents.",
+        "ta": "**உதவித்தொகை மற்றும் நிதி உதவி**\n- அரசு உதவித்தொகைகள் (SC/ST/BC/MBC, சிறுபான்மையினர் மற்றும் மத்திய அரசு திட்டங்கள்)\n- முதல் தலைமுறை பட்டதாரி சலுகை\n- நுழைவுத் தேர்வு / செமஸ்டர் தேர்வில் உயர் மதிப்பெண் பெற்றவர்களுக்கு தகுதி உதவித்தொகை\n- விளையாட்டு ஒதுக்கீட்டுச் சலுகை\n\nதகுதி மற்றும் ஆவணங்கள் குறித்து {email} என்ற மின்னஞ்சலில் உதவித்தொகைப் பிரிவைத் தொடர்பு கொள்ளவும்.",
+        "hi": "**छात्रवृत्ति और वित्तीय सहायता**\n- सरकारी छात्रवृत्तियाँ (SC/ST/OBC, अल्पसंख्यक और केंद्र सरकार की योजनाएँ)\n- प्रथम पीढ़ी के स्नातक के लिए रियायत\n- प्रवेश / सेमेस्टर परीक्षा में उच्च अंक पाने वालों के लिए मेरिट छात्रवृत्ति\n- खेल कोटा रियायत\n\nपात्रता और दस्तावेज़ों के लिए {email} पर छात्रवृत्ति प्रकोष्ठ से संपर्क करें।"
+      }
+    },
+    {
+      "id": "hostel", "label": "Hostel",
+      "keywords": {
+        "en": ["hostel", "accommodation", "mess", "dormitory", "hostel fee", "hostel facilities", "hostel charges", "mess fee"],
+        "ta": ["விடுதி", "ஹாஸ்டல்", "மெஸ்", "தங்கும் வசதி", "விடுதி வசதி", "விடுதி கட்டண"],
+        "hi": ["हॉस्टल", "छात्रावास", "मेस", "आवास", "हॉस्टल सुविधा", "छात्रावास सुविधा", "हॉस्टल फीस", "हॉस्टल शुल्क", "छात्रावास शुल्क"],
+        "ta_rom": ["viduthi"],
+        "hi_rom": ["chhatravas", "chatravas"]
+      },
+      "answers": {
+        "en": "**Hostel facilities**\n- Separate hostels for boys and girls inside the campus\n- Furnished rooms (2-4 sharing), Wi-Fi, 24x7 security and power backup\n- Hygienic mess with vegetarian and non-vegetarian options\n- Hostel fee: {hostel_fee} per year (including mess)\n\nRooms are allotted based on availability; apply through the hostel office after your admission is confirmed.",
+        "ta": "**விடுதி வசதிகள்**\n- வளாகத்திற்குள் மாணவர்களுக்கும் மாணவிகளுக்கும் தனித்தனி விடுதிகள்\n- தளவாடங்களுடன் கூடிய அறைகள் (2-4 பேர் தங்கலாம்), Wi-Fi, 24x7 பாதுகாப்பு, மின்தடை இல்லாத மின்சார வசதி\n- சுகாதாரமான உணவகம் (சைவம் மற்றும் அசைவம்)\n- விடுதிக் கட்டணம்: ஆண்டுக்கு {hostel_fee} (உணவு உட்பட)\n\nஅறைகள் இருப்பைப் பொறுத்து ஒதுக்கப்படும்; சேர்க்கை உறுதியான பின் விடுதி அலுவலகத்தில் விண்ணப்பிக்கவும்.",
+        "hi": "**हॉस्टल सुविधाएँ**\n- परिसर में लड़कों और लड़कियों के लिए अलग-अलग हॉस्टल\n- सुसज्जित कमरे (2-4 साझा), Wi-Fi, 24x7 सुरक्षा और बिजली बैकअप\n- शाकाहारी और मांसाहारी विकल्पों वाली स्वच्छ मेस\n- हॉस्टल शुल्क: {hostel_fee} प्रति वर्ष (मेस सहित)\n\nकमरे उपलब्धता के आधार पर मिलते हैं; प्रवेश पक्का होने के बाद हॉस्टल ऑफिस में आवेदन करें।"
+      }
+    },
+    {
+      "id": "transport", "label": "Transport",
+      "keywords": {
+        "en": ["bus", "transport", "route", "commute", "college bus", "bus fee", "bus facility", "transport facility", "pick up", "drop"],
+        "ta": ["பேருந்து", "பஸ்", "போக்குவரத்து", "வழித்தடம்"],
+        "hi": ["बस", "परिवहन", "यातायात", "रूट", "मार्ग", "कॉलेज बस", "बस सुविधा"],
+        "ta_rom": [],
+        "hi_rom": []
+      },
+      "answers": {
+        "en": "**College transport**\n- College buses run from major areas of the city and nearby towns\n- Morning pick-up and evening drop; routes and timings are announced at the start of each semester\n- Bus fee: {bus_fee} per year\n\nFor your route details, call the transport office: {phone}.",
+        "ta": "**கல்லூரிப் போக்குவரத்து**\n- நகரின் முக்கியப் பகுதிகள் மற்றும் அருகிலுள்ள ஊர்களிலிருந்து கல்லூரிப் பேருந்துகள் இயக்கப்படுகின்றன\n- காலையில் அழைத்து வருதல், மாலையில் கொண்டு விடுதல்; வழித்தடங்களும் நேரங்களும் ஒவ்வொரு செமஸ்டர் தொடக்கத்திலும் அறிவிக்கப்படும்\n- பேருந்துக் கட்டணம்: ஆண்டுக்கு {bus_fee}\n\nஉங்கள் வழித்தட விவரங்களுக்கு போக்குவரத்து அலுவலகத்தை {phone} என்ற எண்ணில் அழைக்கவும்.",
+        "hi": "**कॉलेज परिवहन**\n- शहर के प्रमुख क्षेत्रों और आसपास के कस्बों से कॉलेज बसें चलती हैं\n- सुबह पिक-अप और शाम को ड्रॉप; मार्ग और समय हर सेमेस्टर की शुरुआत में बताए जाते हैं\n- बस शुल्क: {bus_fee} प्रति वर्ष\n\nअपने मार्ग की जानकारी के लिए परिवहन कार्यालय को {phone} पर कॉल करें।"
+      }
+    },
+    {
+      "id": "library", "label": "Library",
+      "keywords": {
+        "en": ["library", "book", "journal", "e resource", "reading room", "nptel"],
+        "ta": ["நூலகம்", "புத்தக", "இதழ்"],
+        "hi": ["पुस्तकालय", "लाइब्रेरी", "किताब", "पुस्तक", "पत्रिका"],
+        "ta_rom": ["noolagam"],
+        "hi_rom": ["pustakalaya"]
+      },
+      "answers": {
+        "en": "**Central library**\n- Over 50,000 books plus national and international journals\n- Digital library with e-books, e-journals and NPTEL resources\n- Reading hall open on all working days, with extended hours during exams\n- Students can borrow up to 4 books at a time using their ID card",
+        "ta": "**மைய நூலகம்**\n- 50,000-க்கும் மேற்பட்ட புத்தகங்கள் மற்றும் தேசிய, சர்வதேச இதழ்கள்\n- மின்னூல்கள், மின்னிதழ்கள் மற்றும் NPTEL வளங்களுடன் கூடிய டிஜிட்டல் நூலகம்\n- அனைத்து வேலை நாட்களிலும் வாசிப்பு அறை திறந்திருக்கும்; தேர்வு நேரங்களில் கூடுதல் நேரம்\n- அடையாள அட்டையைப் பயன்படுத்தி ஒரே நேரத்தில் 4 புத்தகங்கள் வரை எடுக்கலாம்",
+        "hi": "**केंद्रीय पुस्तकालय**\n- 50,000 से अधिक पुस्तकें तथा राष्ट्रीय और अंतरराष्ट्रीय पत्रिकाएँ\n- ई-बुक्स, ई-जर्नल्स और NPTEL संसाधनों वाली डिजिटल लाइब्रेरी\n- सभी कार्य दिवसों में वाचनालय खुला रहता है, परीक्षा के दौरान अतिरिक्त समय\n- छात्र आईडी कार्ड से एक बार में 4 पुस्तकें ले सकते हैं"
+      }
+    },
+    {
+      "id": "placements", "label": "Placements",
+      "keywords": {
+        "en": ["placement", "recruit", "recruiters", "company", "companies", "package", "salary", "job", "internship", "career"],
+        "ta": ["வேலைவாய்ப்பு", "பிளேஸ்மென்ட்", "நிறுவன", "சம்பளம்", "இன்டர்ன்ஷிப்"],
+        "hi": ["प्लेसमेंट", "नौकरी", "रोजगार", "पैकेज", "वेतन", "इंटर्नशिप", "कंपनी", "कंपनियां", "कंपनियाँ"],
+        "ta_rom": ["velaivaippu", "velai vaippu"],
+        "hi_rom": ["naukri"]
+      },
+      "answers": {
+        "en": "**Training and placements**\n- Placement rate: {placement_percent} of eligible students\n- Highest package: {highest_package}; average package: {avg_package}\n- Top recruiters: {recruiters}\n- Aptitude, soft-skill and technical training from the first year, plus internships\n\nPlacement cell: {email}",
+        "ta": "**பயிற்சி மற்றும் வேலைவாய்ப்பு**\n- தகுதியான மாணவர்களில் {placement_percent} பேருக்கு வேலைவாய்ப்பு\n- அதிகபட்ச சம்பளம்: {highest_package}; சராசரி சம்பளம்: {avg_package}\n- முன்னணி நிறுவனங்கள்: {recruiters}\n- முதல் ஆண்டிலிருந்தே திறனறிவு, மென்திறன், தொழில்நுட்பப் பயிற்சி மற்றும் இன்டர்ன்ஷிப்\n\nவேலைவாய்ப்புப் பிரிவு: {email}",
+        "hi": "**प्रशिक्षण एवं प्लेसमेंट**\n- पात्र छात्रों में से {placement_percent} का प्लेसमेंट\n- उच्चतम पैकेज: {highest_package}; औसत पैकेज: {avg_package}\n- प्रमुख कंपनियाँ: {recruiters}\n- पहले वर्ष से ही एप्टीट्यूड, सॉफ्ट स्किल और तकनीकी प्रशिक्षण तथा इंटर्नशिप\n\nप्लेसमेंट सेल: {email}"
+      }
+    },
+    {
+      "id": "exams", "label": "Exams",
+      "keywords": {
+        "en": ["exam", "timetable", "time table", "result", "semester", "hall ticket", "internal", "revaluation", "attendance"],
+        "ta": ["தேர்வு", "முடிவுகள்", "அட்டவணை", "செமஸ்டர்", "ஹால் டிக்கெட்", "வருகைப்பதிவு"],
+        "hi": ["परीक्षा", "परिणाम", "समय सारणी", "टाइम टेबल", "सेमेस्टर", "हॉल टिकट", "उपस्थिति"],
+        "ta_rom": ["thervu"],
+        "hi_rom": ["pariksha"]
+      },
+      "answers": {
+        "en": "**Examinations**\n- Two internal assessments and one model exam per semester, followed by the end-semester exam\n- Timetables, hall tickets and results are published on {website} and on department notice boards\n- Minimum 75% attendance is required to appear for end-semester exams\n\nFor exam-related queries contact the Controller of Examinations: {email}",
+        "ta": "**தேர்வுகள்**\n- ஒவ்வொரு செமஸ்டரிலும் இரண்டு internal தேர்வுகள் மற்றும் ஒரு மாதிரித் தேர்வு, அதைத் தொடர்ந்து செமஸ்டர் இறுதித் தேர்வு\n- தேர்வு அட்டவணை, ஹால் டிக்கெட் மற்றும் முடிவுகள் {website} இணையதளத்திலும் துறை அறிவிப்புப் பலகையிலும் வெளியிடப்படும்\n- செமஸ்டர் இறுதித் தேர்வு எழுத குறைந்தபட்சம் 75% வருகைப்பதிவு அவசியம்\n\nதேர்வு தொடர்பான கேள்விகளுக்கு தேர்வுக் கட்டுப்பாட்டு அதிகாரியை {email} என்ற மின்னஞ்சலில் தொடர்பு கொள்ளவும்.",
+        "hi": "**परीक्षाएँ**\n- हर सेमेस्टर में दो आंतरिक मूल्यांकन और एक मॉडल परीक्षा, उसके बाद सेमेस्टर-अंत परीक्षा\n- समय सारणी, हॉल टिकट और परिणाम {website} और विभाग की सूचना पट्टिका पर प्रकाशित होते हैं\n- सेमेस्टर-अंत परीक्षा देने के लिए न्यूनतम 75% उपस्थिति आवश्यक है\n\nपरीक्षा संबंधी प्रश्नों के लिए परीक्षा नियंत्रक से {email} पर संपर्क करें।"
+      }
+    },
+    {
+      "id": "facilities", "label": "Facilities",
+      "keywords": {
+        "en": ["facilities", "facility", "campus", "lab", "wifi", "wi fi", "sports", "canteen", "gym", "infrastructure", "cafeteria", "playground", "auditorium"],
+        "ta": ["வசதி", "வளாகம்", "ஆய்வகம்", "விளையாட்டு", "கேண்டீன்", "உடற்பயிற்சி"],
+        "hi": ["सुविधा", "परिसर", "कैंटीन", "प्रयोगशाला", "लैब", "खेल", "खेलकूद", "जिम", "वाई फाई"],
+        "ta_rom": ["vasathi"],
+        "hi_rom": ["suvidha"]
+      },
+      "answers": {
+        "en": "**Campus facilities**\n- Modern laboratories and smart classrooms\n- Wi-Fi enabled campus\n- Sports: cricket, football, volleyball, basketball, indoor games and a gym\n- Canteen and cafeteria\n- Auditorium, seminar halls and a medical room with ambulance\n- ATM and stationery shop on campus",
+        "ta": "**வளாக வசதிகள்**\n- நவீன ஆய்வகங்கள் மற்றும் ஸ்மார்ட் வகுப்பறைகள்\n- Wi-Fi வசதியுடன் கூடிய வளாகம்\n- விளையாட்டு: கிரிக்கெட், கால்பந்து, வாலிபால், கூடைப்பந்து, உள்விளையாட்டுகள் மற்றும் உடற்பயிற்சிக் கூடம்\n- கேண்டீன் மற்றும் உணவகம்\n- அரங்கம், கருத்தரங்கு அறைகள் மற்றும் ஆம்புலன்ஸ் வசதியுடன் கூடிய மருத்துவ அறை\n- வளாகத்திலேயே ATM மற்றும் எழுதுபொருள் கடை",
+        "hi": "**परिसर की सुविधाएँ**\n- आधुनिक प्रयोगशालाएँ और स्मार्ट क्लासरूम\n- Wi-Fi युक्त परिसर\n- खेल: क्रिकेट, फुटबॉल, वॉलीबॉल, बास्केटबॉल, इनडोर गेम्स और जिम\n- कैंटीन और कैफेटेरिया\n- ऑडिटोरियम, सेमिनार हॉल और एम्बुलेंस के साथ चिकित्सा कक्ष\n- परिसर में ATM और स्टेशनरी की दुकान"
+      }
+    },
+    {
+      "id": "events", "label": "Events",
+      "keywords": {
+        "en": ["event", "fest", "symposium", "cultural", "workshop", "club", "hackathon", "festival", "competition"],
+        "ta": ["நிகழ்வு", "விழா", "பயிலரங்கம்", "மன்றம்", "போட்டி"],
+        "hi": ["कार्यक्रम", "फेस्ट", "उत्सव", "कार्यशाला", "क्लब", "प्रतियोगिता"],
+        "ta_rom": [],
+        "hi_rom": []
+      },
+      "answers": {
+        "en": "**Events and clubs**\n- Annual cultural and technical fest every year\n- Department symposiums, workshops and hackathons\n- Student clubs: coding, robotics, NSS, NCC, Rotaract, arts and sports\n\nEvent announcements are posted on {website}.",
+        "ta": "**நிகழ்வுகள் மற்றும் மன்றங்கள்**\n- ஒவ்வொரு ஆண்டும் கலை மற்றும் தொழில்நுட்ப விழா\n- துறை வாரியான கருத்தரங்குகள், பயிலரங்குகள் மற்றும் ஹேக்கத்தான்கள்\n- மாணவர் மன்றங்கள்: கோடிங், ரோபாட்டிக்ஸ், NSS, NCC, ரோட்டராக்ட், கலை மற்றும் விளையாட்டு\n\nநிகழ்வு அறிவிப்புகள் {website} இணையதளத்தில் வெளியிடப்படும்.",
+        "hi": "**कार्यक्रम और क्लब**\n- हर वर्ष वार्षिक सांस्कृतिक और तकनीकी उत्सव\n- विभागीय संगोष्ठियाँ, कार्यशालाएँ और हैकथॉन\n- छात्र क्लब: कोडिंग, रोबोटिक्स, NSS, NCC, रोटरैक्ट, कला और खेल\n\nकार्यक्रमों की घोषणाएँ {website} पर प्रकाशित होती हैं।"
+      }
+    },
+    {
+      "id": "about", "label": "About college",
+      "keywords": {
+        "en": ["about college", "about the college", "about us", "history", "established", "accreditation", "accredited", "naac", "nba", "aicte", "affiliation", "affiliated", "ranking", "rank", "vision", "mission", "principal", "autonomous"],
+        "ta": ["கல்லூரி பற்றி", "வரலாறு", "அங்கீகார", "தரவரிசை", "முதல்வர்"],
+        "hi": ["कॉलेज के बारे में", "इतिहास", "मान्यता", "रैंकिंग", "प्राचार्य"],
+        "ta_rom": [],
+        "hi_rom": []
+      },
+      "answers": {
+        "en": "**About {name}**\nEstablished in {established}, {name} is a self-financing engineering institution offering undergraduate and postgraduate programmes. The college is {accreditation}. Visit {website} to know more.",
+        "ta": "**{name} பற்றி**\n{established} ஆம் ஆண்டு தொடங்கப்பட்ட {name}, இளநிலை மற்றும் முதுநிலை படிப்புகளை வழங்கும் சுயநிதிப் பொறியியல் கல்லூரி ஆகும். இக்கல்லூரி {accreditation} கல்லூரியாகும். மேலும் அறிய {website} இணையதளத்தைப் பார்வையிடவும்.",
+        "hi": "**{name} के बारे में**\n{established} में स्थापित {name} एक स्व-वित्तपोषित इंजीनियरिंग संस्थान है जो स्नातक और स्नातकोत्तर पाठ्यक्रम प्रदान करता है। यह कॉलेज {accreditation} है। अधिक जानकारी के लिए {website} देखें।"
+      }
+    },
+    {
+      "id": "contact", "label": "Contact",
+      "keywords": {
+        "en": ["contact", "phone", "call", "email", "e mail", "mobile number", "telephone", "helpline", "website", "reach you"],
+        "ta": ["தொடர்பு", "தொலைபேசி", "மின்னஞ்சல்", "இணையதளம்"],
+        "hi": ["संपर्क", "फोन", "फ़ोन", "ईमेल", "नंबर", "वेबसाइट"],
+        "ta_rom": ["thodarbu"],
+        "hi_rom": ["sampark"]
+      },
+      "answers": {
+        "en": "**Contact us**\n- Phone: {phone}\n- Admission helpline: {admission_phone}\n- Email: {email}\n- Website: {website}\n- Office hours: {office_hours}",
+        "ta": "**எங்களைத் தொடர்பு கொள்ள**\n- தொலைபேசி: {phone}\n- சேர்க்கை உதவி எண்: {admission_phone}\n- மின்னஞ்சல்: {email}\n- இணையதளம்: {website}\n- அலுவலக நேரம்: {office_hours}",
+        "hi": "**हमसे संपर्क करें**\n- फोन: {phone}\n- प्रवेश हेल्पलाइन: {admission_phone}\n- ईमेल: {email}\n- वेबसाइट: {website}\n- कार्यालय समय: {office_hours}"
+      }
+    },
+    {
+      "id": "location", "label": "Location",
+      "keywords": {
+        "en": ["address", "location", "where is", "directions", "map", "how to reach", "located"],
+        "ta": ["முகவரி", "எங்கே", "எப்படி செல்ல", "வழி"],
+        "hi": ["पता", "कहाँ", "कहां", "रास्ता", "स्थान"],
+        "ta_rom": ["mugavari"],
+        "hi_rom": ["kahan"]
+      },
+      "answers": {
+        "en": "**Address**\n{name}\n{address}\n\nTip: search for the college name on Google Maps to get directions.",
+        "ta": "**முகவரி**\n{name}\n{address}\n\nவழி அறிய Google Maps-இல் கல்லூரியின் பெயரைத் தேடவும்.",
+        "hi": "**पता**\n{name}\n{address}\n\nसुझाव: रास्ते की जानकारी के लिए Google Maps पर कॉलेज का नाम खोजें।"
+      }
+    },
+    {
+      "id": "timings", "label": "Timings",
+      "keywords": {
+        "en": ["timing", "office hours", "working hours", "open", "close", "holiday", "college hours"],
+        "ta": ["நேரம்", "விடுமுறை"],
+        "hi": ["समय", "खुलने", "छुट्टी", "ऑफिस टाइम"],
+        "ta_rom": [],
+        "hi_rom": []
+      },
+      "answers": {
+        "en": "**Office hours:** {office_hours} (Monday to Saturday). The office is closed on Sundays and public holidays.",
+        "ta": "**அலுவலக நேரம்:** {office_hours} (திங்கள் முதல் சனி வரை). ஞாயிறு மற்றும் பொது விடுமுறை நாட்களில் அலுவலகம் மூடப்பட்டிருக்கும்.",
+        "hi": "**कार्यालय समय:** {office_hours} (सोमवार से शनिवार)। रविवार और सार्वजनिक अवकाश पर कार्यालय बंद रहता है।"
+      }
+    }
+  ]
+}
