@@ -112,3 +112,5 @@ what to add to the data file next.
 - WhatsApp or Telegram bot using the same `CollegeAssistant.reply()` function
 - Replace keyword matching with sentence embeddings (e.g. multilingual MiniLM)
 - Student-specific answers (timetable, results) via a college database / login
+
+ chennai-college-enquiry.streamlit.app
